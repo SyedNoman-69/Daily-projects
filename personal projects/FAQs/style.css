@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: rgba(100, 148, 237, 0.459); */
+    height: 100vh;
+}
+button{
+    background: none;
+    border: none;
+}
+.card-inner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.card{
+    width: 300px;
+    height: auto;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(41, 122, 192);
+    padding: 10px 10px;
+    border-radius: 7px 7px 0px 0px;
+    color: white;
+    align-items: center;
+}
+.far, .fas{
+    color: white;
+    font-size: 15px;
+}
+.answer{
+    background: rgb(108, 105, 255);
+    color: white;
+    border-radius: 0px 0px 7px 7px;
+    max-height: 0;
+    transition: max-height 0.22s ease-in;
+}
+.answer-open{
+    padding: 12px;
+    max-height: 500px;
+    transition: max-height 0.22s ease-in;
+}
+
+.none{
+    display: none !important;
+}

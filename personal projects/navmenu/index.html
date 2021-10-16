@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Image Slider</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NAVBAR STARTS HERE -->
+    <nav class="main-navbar">
+        <div class="menu animate__animated animate__rubberBand">
+            <i class="fas fa-bars bars"></i>
+            <i class="fas fa-times cross none"></i>
+        </div>
+        <h1 class="main-heading animate__animated animate__bounce">Side Bar</h1>
+    
+        <div class="menu-items animate__animated animate__bounce">
+            <div class="menu-items-inner">
+                <ul class="main-nav-ul icons-nav">
+                    <li><i class="fas fa-home"></i><span>Home</span></li>
+                    <li><i class="fab fa-servicestack"></i><span>Services</span></li>
+                    <li><i class="fas fa-check-double"></i><span>Quotation</span></li>
+                    <li><i class="fas fa-address-book"></i><span>Contact</span></li>
+                    <li><i class="fas fa-question"></i><span>Ask us</span></li>
+                </ul>
+            </div>
+        </div>
+         <div class="icons">
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-google-plus-g"></i></span>
+        </div>
+    </nav>
+    <!-- HERE Hereo STARTS HERE -->
+    <section class="hero">
+        <div class="hero-image-outer">
+            <img class="hero-img" src="https://images.unsplash.com/photo-1632203172046-004f674e9aac?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                alt="">
+        </div>
+    </section>
+    <div class="btn">
+        <button>
+            <i class="far fa-arrow-square-left prev"></i>
+            <i class="far fa-arrow-square-right next"></i>
+        </button>
+    </div>
+
+    <!-- REVIEWS CAROUSEL STARTS HERE -->
+    <section class="card-outer">
+        <div class="img-wrapper">
+            <img class="reviews-img" src="https://images.unsplash.com/photo-1632155075955-4566d891ec52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+                alt="">
+        </div>
+        <div class="text-wrapper">
+            <h1 class="name">John Doe</h1>
+            <p class="job-title">Senior Web Developer</p>
+            <p class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis earum cupiditate
+                porro et ducimus quos ipsum, voluptas tenetur fugit similique.
+            </p>
+        </div>
+        <div class="btn-outer">
+            <button class="btn">
+                <i class="fas fa-arrow-circle-left left"></i>
+                <i class="fas fa-arrow-circle-right right"></i>
+            </button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
