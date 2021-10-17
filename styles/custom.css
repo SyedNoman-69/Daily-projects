@@ -15,3 +15,12 @@ backdrop-filter: blur( 4px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
+.stats{
+    background:linear-gradient(135deg,#ffb077,#b82698);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+}
