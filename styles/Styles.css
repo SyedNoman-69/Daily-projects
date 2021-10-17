@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* font-family: 'Bebas Neue', cursive; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+h2{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    margin: 0;
+    line-height: 2.7rem;
+}
+.main_nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-around;
+}
+nav{
+    padding: 15px;
+}
+.nav_items{
+    list-style: none;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.nav_items li{
+    display: inline-block;
+}
+.nav_items li a{
+    text-decoration: none;
+    color: orange;
+    font-size: medium;
+}
+/* hero */
+.hero{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    font-weight: 500;
+}
+.big-heading{
+    font-size: 4rem;
+}
+.main-image{
+    width: 200px;
+    height: 200px;
+    background-image: url(/Images/main.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain ;
+    border-radius: 50%;
+    box-shadow:0px 0px 25px 2px #ffb923;
+}
+/* Skill loader */
+.skill_loader{
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 50px;
+}
+.skill_loader h3 span{
+    color:#FF9900;
+    font-weight: 900;
+}
+.skill{
+    width: calc(40vw - 50px);
+    margin: 5px 0px;
+}
+.filler{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    background: #FF9900;
+    padding: 5px;
+    color: white;
+    width: 20%;
+    transition: width 2s linear;
+}
+.filler2,.filler3, .filler4{
+    transition: width 2s linear;
+}
+.counter-parent{
+    display: flex;
+}
