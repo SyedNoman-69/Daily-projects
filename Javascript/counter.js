@@ -7,7 +7,6 @@ for (let i = 0;  i < filler.length; i++) {
 // counter
 
 const counters = document.querySelectorAll('.counter')
-
 counters.forEach(counter => {
     counter.innerText = '0';
 
@@ -15,14 +14,14 @@ counters.forEach(counter => {
         const target = +counter.getAttribute('data-target')
         const c = +counter.innerText
 
-        const increment = target / 200
+        const increment = target / 10000
 
         if(c<target){
         counter.innerText = `${Math.ceil(c+increment)}`;
-            setTimeout(updateCounter, 3)
+            setTimeout(updateCounter, 1)
         } else{
             counter.innerText = target
         }
     }
     updateCounter()
-})
+});
